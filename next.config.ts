@@ -1,6 +1,6 @@
 const nextConfig = {
-  output: "export",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/dentist-app/" : "",
+  output: "standalone", // Netlify uchun kerak
+ 
 };
 
 export default nextConfig;
